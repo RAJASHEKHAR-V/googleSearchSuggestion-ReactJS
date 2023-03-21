@@ -13,7 +13,6 @@ class GoogleSuggestions extends Component {
 
   onClickOnArrow = suggestion => {
     const inputEl = document.getElementsByTagName('input')
-    inputEl.value = suggestion
     this.setState({searchInput: suggestion})
     console.log(inputEl)
   }
